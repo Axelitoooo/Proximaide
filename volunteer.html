@@ -100,30 +100,39 @@
                         <div class="volunteer-form">
                             <form>
                                 <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    <input type="text" class="form-control" placeholder="Nom/Prénom" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
+                                    <input type="text" class="form-control" placeholder="email" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
+                                    <input type="text" class="form-control" placeholder="lien de votre cagnotte" required="required" />
                                 </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" placeholder="Objectif de votre cagnotte " required="required"></textarea>
+                                </div>
+                                <label >Document d'approbation signer par la mairie :<br /></label>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Become a volunteer</button>
+                                    <input type="file" id="avatar" name="Document d'approbation signer par la mairie" accept="image/png, image/jpeg" />
                                 </div>
+                                <br />
+                                <div>
+                                    <input type="submit" value="Envoyer le formulaire" />
+                                </div>
+
+                                <div>
+                                    <label ><br />Un retour vous sera fait par mail dans les 24h</label>
+                                </div>
+
                             </form>
                         </div>
                     </div>
                     <div class="col-lg-7">
                         <div class="volunteer-content">
                             <div class="section-header">
-                                <p>Become A Volunteer</p>
-                                <h2>Let’s make a difference in the lives of others</h2>
+                                <p>Aider vos communautés locales </p>
+                                <h2>Faites le pas ajoutez votre cagnotte a Proximaide !</h2>
                             </div>
-                            <div class="volunteer-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -139,10 +148,10 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-contact">
-                            <h2>Our Head Office</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            <h2>Notre adresse</h2>
+                            <p><i class="fa fa-map-marker-alt"></i>20 bis Jardins Boieldieu, 92800 Puteaux</p>
+                            <p><i class="fa fa-phone-alt"></i>01 55 90 06 30</p>
+                            <p><i class="fa fa-envelope"></i>proximade@example.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -154,21 +163,19 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                            <h2>Popular Links</h2>
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">Popular Causes</a>
-                            <a href="">Upcoming Events</a>
-                            <a href="">Latest Blog</a>
+                            <h2>Lien populaires</h2>
+                            <a href="about.html">A propos</a>
+                            <a href="contact.html">Contactez nous !</a>
+                            <a href="causes.html">Causes</a>
+                            <a href="blog.html">Blog</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                            <h2>Useful Links</h2>
-                            <a href="">Terms of use</a>
-                            <a href="">Privacy policy</a>
+                            <h2>Lien utiles</h2>
+                            <a href="">Conditions d'utilisation</a>
                             <a href="">Cookies</a>
-                            <a href="">Help</a>
+                            <a href="">Aide</a>
                             <a href="">FQAs</a>
                         </div>
                     </div>
@@ -176,9 +183,9 @@
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>
                             <form>
-                                <input class="form-control" placeholder="Email goes here">
-                                <button class="btn btn-custom">Submit</button>
-                                <label>Don't worry, we don't spam!</label>
+                                <input class="form-control" placeholder="Email">
+                                <button class="btn btn-custom">Envoyer</button>
+                                <label>pas de spam!</label>
                             </form>
                         </div>
                     </div>
@@ -187,10 +194,7 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        <p>&copy; <a href="#">Proxymaide</a>, All Right Reserved.</p>
                     </div>
                 </div>
             </div>
