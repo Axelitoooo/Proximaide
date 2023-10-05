@@ -259,6 +259,10 @@ a:focus {
     text-transform: uppercase;
 }
 
+.img {
+
+}
+
 .navbar .navbar-brand img {
     max-width: 100%;
     max-height: 40px;
@@ -530,7 +534,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 210px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/single.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/vert.vert.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -742,6 +746,14 @@ a:focus {
     margin-top: 5px;
 }
 
+.service .service-icon  {
+   img{
+    position: relative;
+    width: 60px;
+   } 
+
+}
+
 .service .service-text {
     position: relative;
     margin-left: 20px;
@@ -909,7 +921,7 @@ a:focus {
 }
 
 .causes .progress {
-    height: 10px;
+    height: 10px;vscode-file://vscode-app/c:/Users/abouv/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
     border-radius: 0;
     background: #dddddd;
     overflow: visible;
